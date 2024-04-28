@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 50vw;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+
+.video {
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    padding-bottom: 0;
+}
+
+.nav {
+    width: 100%;
+    height: 8%;
+    background-color: #3D2D09;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    align-items: center;
+}
+
+.nav .title {
+    font-size: 1.50vw;
+    color: white;
+    margin-left: -5%;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navMenu ul {
+    display: flex;
+    list-style: none;
+}
+
+.navMenu ul a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.10vw;
+    margin: 0 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navMenu ul a:hover {
+    color: #C79A35;
+}
+
+.headerContent {
+    color: white;
+    font-size: 3.5vw;
+    display: grid;
+    place-items: center;
+    line-height: 950%;
+}
+
+.headerContent h1 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.body {
+    background-color: #F2D89A;
+    width: 100%;
+    height: auto;
+    margin-top: -261px;
+}
+
+.main {
+    background-color: #C79A35;
+    color: #3D2D09;
+    margin: auto;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.whyTitle {
+    font-size: 3.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.histTitle {
+    font-size: 3.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+.history {
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.whyComments {
+    padding-top: 30px;
+    padding-bottom: 80px;
+    font-size: 1.5vw;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.funList {
+    padding-left: 250px;
+    font-size: 1.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+
+.funList ol {
+    margin: 0;
+    padding: 0;
+}
+
+.funList li {
+    text-align: left;
+    padding-top: 20px;
+}
+
+.histLink {
+    font-size: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+
+.map img{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    max-width: 100%;
+}
+
+.footer {
+    margin: auto;
+    width: 100%;
+    height: auto;
+    background-color: #3D2D09;
+    color: white;
+    text-align: center;
+    padding-top: 0.20%;
+    padding-bottom: 0.20%;
+}
+
+.pageTitle {
+    font-size: 3vw;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    font-weight: bold;
+    padding-bottom: 80px;
+}
+
+.geneva-container {
+    display: block;
+    margin-bottom: 200px;
+}
+
+.containerImg img {
+    width: 30%;
+    height: 10%;
+    float: left;
+    padding-left: 8%;
+}
+
+.containerTitle {
+    font-size: 1.5vw;
+    color: #3D2D09;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.containerText p{
+    font-size: 1vw;
+    padding-top: 2%;
+    text-align: left;
+    padding-left: 35%;
+    text-indent: 30px;
+    padding-right: 5%;
+    color: #3D2D09;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+a:link {
+    color: #3D2D09;
+}
+
+a:visited {
+    color: #3D2D09;
+}
+
+a:hover {
+    color: #F2D89A;
+}
+
+.meyers-container {
+    display: block;
+    margin-bottom: 165px;
+}
+
+.elroy-container {
+    display: block;
+    margin-bottom: 165px;
+}
+
+.pewit-container {
+    display: block;
+    margin-bottom: 140px;
+}
+
+.eagle-container {
+    display: block;
+    padding-bottom: 200px;
+}
+
+.artMuseum-container {
+    display: block;
+    margin-bottom: 115px;
+}
+
+.olbrich-container {
+    display: block;
+    margin-bottom: 180px;
+}
+
+.henry-container {
+    display: block;
+    margin-bottom: 200px;
+}
+
+.houseOnRock-container {
+    display: block;
+    margin-bottom: 75px;
+}
+
+.lambeau-container{
+    display: block;
+    padding-bottom: 80px;
+}
+
+.diplomat-container {
+    display: block;
+    margin-bottom: 175px;
+}
+
+.bavarian-container {
+    display: block;
+    margin-bottom: 235px;
+}
+
+.letoile-container {
+    display: block;
+    margin-bottom: 170px;
+}
+
+.montys-container {
+    display: block;
+    margin-bottom: 125px;
+}
+
+.hagemeister-container {
+    display: block;
+    padding-bottom: 200px;
+}
+
+.justin-container {
+    display: block;
+    margin-bottom: 150px;
+}
+
+.stouts-container {
+    display: block;
+    margin-bottom: 170px;
+}
+
+.caboose-container {
+    display: block;
+    margin-bottom: 210px;
+}
+
+.woodland-container {
+    display: block;
+    margin-bottom: 175px;
+}
+
+.dome-container {
+    display: block;
+    padding-bottom: 200px;
+}
+
+.lighthouseRightArea {
+    padding-left: 550px;
+}
+
+.cave-container {
+    display: block;
+    margin-bottom: 210px;
+}
+
+.dells-container {
+    display: block;
+    margin-bottom: 95px;
+}
+
+.door-container {
+    display: block;
+    margin-bottom: 170px;
+}
+
+.epic-container {
+    display: block;
+    margin-bottom: 150px;
+}
+
+.jurustic-container {
+    display: block;
+    padding-bottom: 170px;
+}
